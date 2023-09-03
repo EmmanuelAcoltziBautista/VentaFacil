@@ -1,0 +1,16 @@
+/*
+Autor:Emmanuel Acoltzi Bautista
+Ubicacion:Mexico.Tlaxcala
+Fecha:19/07/2023
+correo electronico :basedeemma@gmail.com
+correo electronico personal:emmaacoltzibautista@gmail.com
+*/
+DROP DATABASE VentaFacil;
+CREATE DATABASE VentaFacil;
+USE VentaFacil;
+CREATE TABLE PRODUCTOS(
+ID MEDIUMINT AUTO_INCREMENT,
+PRODUCTO CHAR(255),
+PRECIO CHAR(255),
+PRIMARY KEY(ID)
+);
